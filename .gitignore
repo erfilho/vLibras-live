@@ -3,4 +3,6 @@ build/
 .idea
 *.log
 
+dist/
+
 **/.DS_Store
