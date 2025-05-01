@@ -1,8 +1,7 @@
 node_modules/
 build/
+dist/
 .idea
 *.log
-
-dist/
 
 **/.DS_Store
