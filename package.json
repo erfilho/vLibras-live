@@ -1,0 +1,23 @@
+{
+  "name": "vlibras",
+  "version": "1.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dist": "npx serve -s dist",
+    "dev": "npx serve -s src"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "object-assign": "^4.0.1",
+    "superagent": "^10.1.1",
+    "url-join": "^4.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
